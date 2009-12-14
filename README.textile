@@ -1,0 +1,15 @@
+h1. README
+
+h2. Usage 
+
+Views the sample database provided by TeleAtlas via <a href="http://openlr.org/testdata.html">openlr.org/testdata</a>
+
+Unfortunately one can not include the testdata in a release as it is only available after conmfirming a licence agreement. Please obtain the data from the link given above and put the database files in <code>src/main/resources</code> directory and start the application with the appropiate filename (preceded by a slash)
+
+Usage
+
+<pre>
+	$ TeleAtlasViewer /database.db3
+</pre>
+
+The application will render the given vendor map.
